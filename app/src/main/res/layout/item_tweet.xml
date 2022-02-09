@@ -7,6 +7,17 @@
     android:layout_marginTop="1dp"
     android:background="#E1E8ED">
 
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvBody"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:textStyle="bold"
+        tools:text="Rishi Pandey" />
+
     <ImageView
         android:id="@+id/ivProfileImage"
         android:layout_width="50dp"
@@ -21,8 +32,8 @@
         android:id="@+id/tvScreenName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/tvName"
         tools:text="rpandey1234" />
 
     <TextView
