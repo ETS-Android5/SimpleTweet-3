@@ -1,10 +1,13 @@
 package com.codepath.apps.restclienttemplate;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -33,6 +36,13 @@ public class TimelineActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
+
+        ActionBar actionBar = getSupportActionBar();
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#1DA1F2"));
+        actionBar.setBackgroundDrawable(colorDrawable);
+        actionBar.setDisplayShowHomeEnabled(true);
+        actionBar.setLogo(R.drawable.ic_baseline_home_24);
+        actionBar.setDisplayUseLogoEnabled(true);
 
         client = TwitterApp.getRestClient(this);
 
