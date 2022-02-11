@@ -38,7 +38,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-I added the home logo and then Twitter colors. Also, I added the infinite scroll (pagination) as well along with the clickable links.
+For the stretch stories, I added the infinite scroll (pagination), the clickable links and the home logo and the Twitter colors. 
 
 ## Open-source libraries used
 
