@@ -18,6 +18,14 @@
         android:textStyle="bold"
         tools:text="Rishi Pandey" />
 
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="7dp"
+        tools:text="8 hour" />
+
     <ImageView
         android:id="@+id/ivProfileImage"
         android:layout_width="50dp"
