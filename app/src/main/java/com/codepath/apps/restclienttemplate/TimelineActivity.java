@@ -56,7 +56,7 @@ public class TimelineActivity extends AppCompatActivity {
         //actionBar.setDisplayShowHomeEnabled(true);
         //actionBar.setLogo(R.drawable.ic_launcher_twitter);
         //actionBar.setLogo(R.drawable.ic_baseline_home_24);
-       // actionBar.setTitle(" Twitter ");
+        //actionBar.setTitle("Twitter");
         //actionBar.setDisplayUseLogoEnabled(true);
 
         client = TwitterApp.getRestClient(this);
