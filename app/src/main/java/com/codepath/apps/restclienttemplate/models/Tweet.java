@@ -1,7 +1,10 @@
 package com.codepath.apps.restclienttemplate.models;
 
+import android.provider.ContactsContract;
+
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
+import androidx.room.ForeignKey;
 import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
@@ -16,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Parcel
-@Entity
+@Entity(foreignKeys = @ForeignKey(entity=User.class, parentColumns="id", childColumns="userId"))
 public class Tweet {
 
     @ColumnInfo
