@@ -1,4 +1,4 @@
-# Project 2 - "Simple Tweet*
+# Project 2 - *Simple Tweet Twitter*
 
 **Simple Tweet Twitter** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
@@ -37,7 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I have used Parcelable and allowed the user to open the twitter app offline and see tweets. 
+For the stretch stories, I have used Parcelable and allowed the user to open the twitter app offline and see tweets. 
 
 ## Open-source libraries used
 
